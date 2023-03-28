@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap");
+
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #1d3557;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background-image: url(images/beijing.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Quattrocento", sans-serif;
+  height: 400px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: #1d3557;
+  font-size: 2rem;
+  margin: 0 auto;
+  padding: 7px 12px;
+}
+
+h2 {
+  background-color: #457b9d;
+  font-size: 1.2rem;
+  margin: 10px auto 0;
+  padding: 7px 28px;
+}
+
+.activities {
+  background-color: #f1faee;
+  padding: 1px;
+}
+
+.activities > h3 {
+  margin: 40px auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 900px;
+  margin: 50px auto 40px;
+}
+
+.activity-img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.activity {
+  width: 33%;
+  max-width: 200px;
+  padding: 0 10px;
+}
+
+.activity > h4 {
+  margin: 22px 0 17px;
+}
+
+.activity > p {
+  margin: 0;
+}
+
+.guide {
+  background-color: #a8dadc;
+  box-shadow: 0px 6px 0px #1d3557;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 24px;
+  width: 400px;
+  display: flex;
+}
+
+.profile-img {
+  width: 180px;
+  margin: 0;
+}
+
+.guide-content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.guide-content > h3 {
+  margin: 0;
+}
+
+.guide-content > p {
+  font-style: italic;
+  margin-top: 14px;
+  margin: 0;
+}
+
+.guide-content > h4 {
+  margin-top: 26px 0 0 0;
+}
